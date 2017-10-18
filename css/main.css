@@ -1,0 +1,302 @@
+/*-----Reset default style-----*/
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: Whitney sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding-left: 14px;
+}
+
+@font-face {
+  font-family: Whitney sans-serif;
+  src: url(../fonts/Whitney-Black-ProGkCy.otf);
+  src: url(../fonts/Whitney-Bold-ProGkCy.otf);
+  src: url(../fonts/Whitney-BoldItal-ProGkCy.otf);
+  src: url(../fonts/Whitney-Semibld-ProGkCy.otf);
+  src: url(../fonts/Whitney-Medium-ProGkCy.otf);
+  src: url(../fonts/Whitney-Light-ProGkCy.otf);
+}
+
+
+/*-----Backgrounds for blocks-----*/
+
+.flat {
+  background: url(../images/flat3-blur.jpg) no-repeat;
+  background-size: cover;
+}
+
+.house {
+  background: url(../images/house-blur.jpg) no-repeat;
+  background-size: cover;
+}
+
+.green {
+  background: url(../images/green-blur.jpg) no-repeat;
+  background-size: cover;
+}
+
+.ordering {
+  background: url(../images/ordered-blur.jpg) no-repeat;
+  background-size: cover;
+}
+
+.company-name {
+  /*font-family: 'Kaushan Script', cursive;*/
+  text-transform: uppercase;
+}
+
+.right-block, .left-block {
+  width: 50%;
+  padding: 2em 0;
+}
+
+.right-block img, .left-block img {
+  width: 100%;
+}
+
+.right-block {
+  float: left;
+  padding-right: 2em;
+}
+
+.left-block {
+  float: right;
+  padding-left: 2em;
+}
+
+/*-----Gallery styles-----*/
+
+.galleria {
+  max-width: 1000px;
+  height: 500px;
+  background: #263238;
+}
+
+.galleria-theme-classic {
+  background: #283236 !important;
+}
+
+/*-----Styles for Services blocks-----*/
+
+.service-blocks-container {
+  margin-top: 60px;
+}
+
+.service-block {
+  padding: 5em 0;
+  height: 900px;
+}
+
+.service-title-block span {
+  vertical-align: middle;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.service-title {
+  width: 50%;
+  margin: 5% auto 3%;
+  padding: 2em;
+  background: #263238;
+  color: #fff;
+}
+
+.service-specification {
+  width: 50%;
+  height: auto;
+  margin: 2% auto;
+  padding: 1.5em;
+  background: #fff;
+  font-size: 1.3em;
+  color: #263238;
+  text-align: justify;
+}
+
+.service-specification h5 {
+  text-align: right;
+  display: block;
+}
+
+.send-request-button {
+  float: right;
+  width: 200px;
+  margin-top: -0.5em;
+  padding: 10px 15px;
+  border: 0;
+  background: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #263238;
+  text-align: center;
+  text-decoration: none;
+}
+
+.send-request-button:hover {
+  cursor: pointer;
+}
+
+/*-----Styles for blocks with description description services-----*/
+
+.description-block {
+  padding: 5em;
+}
+
+.description-title {
+  width: 100%;
+  margin: 1em 0 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description-block span {
+  color: #263238;
+  font-size: 1.5rem;
+}
+
+.map-block img {
+  width: 100%;
+}
+
+/*-----Form block style-----*/
+.form-block {
+  width: 40%;
+  max-width: 800px;
+  margin: 7em auto 4em;
+  padding: 2em;
+  color: #263238;
+}
+
+.form-block-title {
+  width: 200px;
+  margin: 2em auto;
+  vertical-align: middle;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.form-block form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-block input, textarea, select {
+  width: 100%;
+  box-sizing: border-box;
+  margin: .5em 0;
+  padding: 1em .5em;
+  border: 1px solid #263238;
+}
+
+input[type = 'radio'] {
+  width: auto;
+  margin: 0 0 0 .5em;
+  padding: 1em .5em;
+  border: 1px solid #263238;
+}
+
+.form-block label {
+  font-weight: bold;
+}
+
+.form-block textarea {
+  height: 100px;
+}
+
+.form-block select {
+  padding: .5em;
+  background: #fff;
+  border: 1px solid #263238;
+  text-transform: lowercase;
+}
+
+.form-block select:hover {
+  cursor: pointer;
+}
+
+.form-button {
+  width: 220px;
+  height: auto;
+  margin: 1em auto 3em;
+  cursor: pointer;
+}
+
+.form-button input:hover {
+  cursor: pointer;
+}
+
+.form-block .send-form {
+  width: 220px;
+  height: auto;
+  padding: 10px 15px;
+  border: 0;
+  background: #263238;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 1300px) and (min-width: 768px) {
+
+  .service-block {
+    height: 740px;
+  }
+
+  /*.left-block {*/
+    /*width: 100%;*/
+    /*padding: 5em 0 15em;*/
+  /*}*/
+
+  /*.right-block {*/
+    /*display: none;*/
+  /*}*/
+
+  /*.service-block {*/
+    /*padding: 5% 0;*/
+  /*}*/
+
+  /*.service-title {*/
+    /*width: 60%;*/
+    /*height: 250px;*/
+  /*}*/
+
+  /*.service-title-block h5 {*/
+    /*color: #fff;*/
+    /*display: block;*/
+  /*}*/
+
+  /*.service-title-block>.send-request-button {*/
+    /*font-size: 1.5rem;*/
+    /*display: none;*/
+  /*}*/
+
+  /*.service-title>.send-request-button {*/
+    /*font-size: 1.2rem;*/
+    /*display: block;*/
+  /*}*/
+
+  .service-title-block h3,
+  .service-title-block h5 {
+    font-size: 1.5rem;
+  }
+
+  .send-request-button {
+    /*margin: 5em 2em 0 0;*/
+  }
+
+  .send-request-button button {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+}

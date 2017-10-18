@@ -1,0 +1,581 @@
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+@media(min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+  .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    /*margin: auto;*/
+    height: auto;
+    box-sizing: border-box;
+    /*flex: 1 100%;*/
+  }
+
+  .col-md-1 {
+    width: 8.3%;
+    /*flex: 1 auto;*/
+  }
+
+  .col-md-2 {
+    width: 16.6%
+    /*flex: 2 auto;*/
+  }
+
+  .col-md-3 {
+    width: 24.9%;
+    /*flex: 3 auto;*/
+  }
+
+  .col-md-4 {
+    width: 33.2%;
+    /*flex: 4 auto;*/
+  }
+
+  .col-md-5 {
+    width: 41.5%;
+    /*flex: 5 auto;*/
+  }
+
+  .col-md-6 {
+    width: 49.8%;
+    /*flex: 6 auto;*/
+  }
+
+  .col-md-7 {
+    width: 58.1%;
+    /*flex: 7 auto;*/
+  }
+
+  .col-md-8 {
+    width: 66.4%;
+    /*flex: 8 auto;*/
+  }
+
+  .col-md-9 {
+    width: 74.7%;
+    /*flex: 9 auto;*/
+  }
+
+  .col-md-10 {
+    width: 83%;
+    /*flex: 10 auto;*/
+  }
+
+  .col-md-11 {
+    width: 91.3%;
+    /*flex: 11 auto;*/
+  }
+
+  .col-md-12 {
+    width: 99.6%;
+    /*flex: 12 auto;*/
+  }
+}
+
+  /*.offset-md-1 {*/
+    /*margin-left: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-2 {*/
+    /*margin-left: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-3 {*/
+    /*margin-left: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-4 {*/
+    /*margin-left: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-5 {*/
+    /*margin-left: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-6 {*/
+    /*margin-left: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-7 {*/
+    /*margin-left: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-8 {*/
+    /*margin-left: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-9 {*/
+    /*margin-left: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-10 {*/
+    /*margin-left: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-11 {*/
+    /*margin-left: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-12 {*/
+    /*margin-left: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-1 {*/
+    /*margin-right: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-2 {*/
+    /*margin-right: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-3 {*/
+    /*margin-right: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-4 {*/
+    /*margin-right: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-5 {*/
+    /*margin-right: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-6 {*/
+    /*margin-right: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-7 {*/
+    /*margin-right: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-8 {*/
+    /*margin-right: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-9 {*/
+    /*margin-right: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-10 {*/
+    /*margin-right: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-11 {*/
+    /*margin-right: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.offset-md-12 {*/
+    /*margin-right: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+/*}*/
+
+/*@media(min-width: 768px) {*/
+  /*.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,*/
+  /*.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {*/
+    /*margin: auto;*/
+    /*height: 100px;*/
+    /*/!*flex: 1 100%;*!/*/
+  /*}*/
+
+  /*.col-sm-1 {*/
+    /*width: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-2 {*/
+    /*width: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-3 {*/
+    /*width: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-4 {*/
+    /*width: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-5 {*/
+    /*width: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-6 {*/
+    /*width: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-7 {*/
+    /*width: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-8 {*/
+    /*width: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-9 {*/
+    /*width: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-10 {*/
+    /*width: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-11 {*/
+    /*width: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.col-sm-12 {*/
+    /*width: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-1 {*/
+    /*margin-left: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-2 {*/
+    /*margin-left: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-3 {*/
+    /*margin-left: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-4 {*/
+    /*margin-left: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-5 {*/
+    /*margin-left: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-6 {*/
+    /*margin-left: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-7 {*/
+    /*margin-left: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-8 {*/
+    /*margin-left: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-9 {*/
+    /*margin-left: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-10 {*/
+    /*margin-left: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-11 {*/
+    /*margin-left: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.offset-sm-12 {*/
+    /*margin-left: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-1 {*/
+    /*margin-right: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-2 {*/
+    /*margin-right: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-3 {*/
+    /*margin-right: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-4 {*/
+    /*margin-right: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-5 {*/
+    /*margin-right: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-6 {*/
+    /*margin-right: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-7 {*/
+    /*margin-right: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-8 {*/
+    /*margin-right: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-9 {*/
+    /*margin-right: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-10 {*/
+    /*margin-right: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-11 {*/
+    /*margin-right: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.push-sm-12 {*/
+    /*margin-right: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+/*}*/
+
+/*@media(max-width: 576px) {*/
+  /*.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,*/
+  /*.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {*/
+    /*margin: auto;*/
+    /*height: 100px;*/
+    /*/!*flex: 1 100%;*!/*/
+  /*}*/
+
+  /*.col-xs-1 {*/
+    /*width: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-2 {*/
+    /*width: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-3 {*/
+    /*width: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-4 {*/
+    /*width: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-5 {*/
+    /*width: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-6 {*/
+    /*width: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-7 {*/
+    /*width: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-8 {*/
+    /*width: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-9 {*/
+    /*width: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-10 {*/
+    /*width: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-11 {*/
+    /*width: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.col-xs-12 {*/
+    /*width: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-1 {*/
+    /*margin-left: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-2 {*/
+    /*margin-left: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-3 {*/
+    /*margin-left: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-4 {*/
+    /*margin-left: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-5 {*/
+    /*margin-left: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-6 {*/
+    /*margin-left: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-7 {*/
+    /*margin-left: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-8 {*/
+    /*margin-left: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-9 {*/
+    /*margin-left: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-10 {*/
+    /*margin-left: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-11 {*/
+    /*margin-left: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.offset-xs-12 {*/
+    /*margin-left: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-1 {*/
+    /*margin-right: 8.3%;*/
+    /*/!*flex: 1 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-2 {*/
+    /*margin-right: 16.6%*/
+    /*/!*flex: 2 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-3 {*/
+    /*margin-right: 24.9%;*/
+    /*/!*flex: 3 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-4 {*/
+    /*margin-right: 33.2%;*/
+    /*/!*flex: 4 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-5 {*/
+    /*margin-right: 41.5%;*/
+    /*/!*flex: 5 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-6 {*/
+    /*margin-right: 49.8%;*/
+    /*/!*flex: 6 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-7 {*/
+    /*margin-right: 58.1%;*/
+    /*/!*flex: 7 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-8 {*/
+    /*margin-right: 66.4%;*/
+    /*/!*flex: 8 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-9 {*/
+    /*margin-right: 74.7%;*/
+    /*/!*flex: 9 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-10 {*/
+    /*margin-right: 83%;*/
+    /*/!*flex: 10 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-11 {*/
+    /*margin-right: 91.3%;*/
+    /*/!*flex: 11 auto;*!/*/
+  /*}*/
+
+  /*.push-xs-12 {*/
+    /*margin-right: 99.6%;*/
+    /*/!*flex: 12 auto;*!/*/
+  /*}*/
+/*}*/

@@ -1,0 +1,57 @@
+footer {
+  height: 240px;
+  padding: 5em;
+  background: #263238;
+}
+
+.footer-block {
+  height: 170px;
+  color: #fff
+}
+
+.left-footer-block {
+  width: 40%;
+  float: left;
+}
+
+.left-footer-block h5 {
+  margin-top: 180px;
+}
+
+.right-footer-block {
+  width: 23%;
+  float: right;
+}
+
+.social {
+  height: 36px;
+}
+
+.footer-block span {
+  font-size: 1.5rem;
+}
+
+.footer-block span a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin: 1em 0;
+}
+
+.contact-info .social-name {
+  padding-top: 5px;
+}
+
+.contact-info div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-block .contact-info img {
+  float: left;
+  margin-right: 1em;
+}

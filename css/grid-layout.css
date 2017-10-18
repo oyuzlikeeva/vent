@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+}
+
+.row {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  justify-items: start;
+  grid-template-areas: "col-md-1"
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  margin: auto;
+  height: 100px;
+  item-area: col-md-1;
+}
